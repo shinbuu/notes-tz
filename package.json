@@ -1,0 +1,27 @@
+{
+    "name": "notes-app",
+    "version": "1.0.0",
+    "description": "Full-stack Notes Application",
+    "main": "index.js",
+    "scripts": {
+        "frontend": "cd frontend && npm run dev",
+        "backend": "cd backend && npm run dev",
+        "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+        "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+    },
+    "keywords": [
+        "notes",
+        "react",
+        "express"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    },
+    "dependencies": {
+        "-": "^0.0.1",
+        "cors": "^2.8.5",
+        "prettier-plugin-tailwindcss": "^0.6.11"
+    }
+}
