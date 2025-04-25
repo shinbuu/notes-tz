@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors({
     origin: 'http://localhost:5173', // Разрешаем запросы с фронтенда, который работает на порту 5173
-    methods: ['POST', 'GET'],
+    methods: ['POST', 'GET', 'PUT', 'DELETE'],
     credentials: true
 }));
 app.use(express.json());
