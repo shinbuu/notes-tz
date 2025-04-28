@@ -49,13 +49,13 @@ npm run dev
 http://localhost:5173
 ```
 
-### Серверная часть (директория /server)
+### /backend
 - `app.js` - основной
 - `database.js` - бд SQLite
 - `/middleware` - промежуточные обработчики, включая аутентификацию
 - `/routes` - маршруты API для авторизации и работы с заметками
 
-### Клиентская часть (директория /client)
+### /frontend
 - `/src/components` - компоненты
 - `/src/pages` - страницы
 - `/src/context` - контекст для авторизации
